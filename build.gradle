@@ -30,6 +30,8 @@ dependencies {
 
     testImplementation("io.micronaut:micronaut-http-client")
 
+    compileOnly("io.micronaut.security:micronaut-security-annotations")
+    implementation("io.micronaut.security:micronaut-security-jwt")
 }
 
 
