@@ -1,3 +1,7 @@
+This repo was a reproducer of an issue that was present in Micronaut 3.0.0 - 3.1.2.
+The issue was fixed in Micronaut 3.1.3.
+See https://github.com/micronaut-projects/micronaut-aws/issues/1166
+
 ## Issue-1166
 
 Run the test `./gradlew test` and you will see that the app responds with `500`
